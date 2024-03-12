@@ -33,6 +33,8 @@ pip install -r poetry.lock
 Entre na pasta codeleap e rode:
 
 ```shell
+python manager.py makemigrations
+python manager.py migrate
 python manage.py runserver
 ```
 
